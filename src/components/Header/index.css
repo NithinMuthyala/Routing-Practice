@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.main-container {
+  border: 3px solid #551e53;
+  height: 100vh;
+}
+.nav-container {
+  display: flex;
+  min-width: 350px;
+  align-items: center;
+}
+@media screen and (min-width: 350px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+li {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wave-text {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+}
